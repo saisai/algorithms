@@ -18,3 +18,18 @@ http://www.algolist.net/Algorithms/Binary_search
 https://www.codechef.com/wiki/tutorials
 http://www.cosc.canterbury.ac.nz/mukundan/dsal/appldsal.html
 http://www.sorting-algorithms.com/bubble-sort
+
+
+…or create a new repository on the command line
+
+echo # algorithms >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/saisai/algorithms.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/saisai/algorithms.git
+git push -u origin master
